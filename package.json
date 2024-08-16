@@ -4,7 +4,6 @@
   "scripts": {
     "codegen:mainnet": "graph codegen -- subgraph-mainnet.yaml",
     "build:mainnet": "graph build -- subgraph-mainnet.yaml",
-    "deploy:mainnet": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ -- joyfulmagician/taraswap_staker subgraph-mainnet.yaml",
     "deploy:local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 taraswap_staker subgraph-mainnet.yaml",
     "create:local": "graph create --node http://localhost:8020/ taraswap_staker",
     "remove:local": "graph remove --node http://localhost:8020/ taraswap_staker"
